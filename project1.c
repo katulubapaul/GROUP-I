@@ -1,4 +1,5 @@
-// (*** GROUP I ***)
+
+
 /* RESTUARANT FOOD ORDERING SYSTEM IN C.
  Customer can:
  - Place order.
@@ -14,8 +15,8 @@ ViewOrder() prints or displays itemised reciept with the orders made.
 
 struct foods - defines the structure or template of the food array.
 struct Order - defines the structure or template of the order array. 
-struct foods food[] - array that stores the menu items. 
-struct order orders[] - array to store the placed orders.
+struct foods food[] - array that stores arrays of the menu items. 
+struct order orders[] - array to store arrays of the placed orders.
  */
 
 #include <stdio.h>// preprocessor directive
@@ -206,3 +207,10 @@ int main(){ //Main function
     }
  
 }
+/* (*** GROUP I ***)
+1. KATULUBA PAUL 2024/DCS/DAY/1722
+2. TINYEFUZA JOE 2024/DCS/DAY/1931
+3. AKENA LAWRENCE 2024/DCS/DAY/1694
+4. NABACCWA MARIA JEMA 2024/DCS/DAY/1560
+5. KAGANZI ARINDA MARTIAL 2024/DCS/DAY/1010
+*/
